@@ -2,8 +2,6 @@
 
 Este é um algoritmo desenvolvido em Python para contar objetos em uma imagem binária. Ele identifica a quantidade de objetos com e sem buracos na imagem desejada, lembrando que para fins de simplificação serão considerados como obejtos apenas figuras geométricas quadradras com ou sem "buraco", como pode ser visto nas imagens anexadas a esse repositório. O algoritmo utiliza o processo conhecido como "Hit or Miss", que detecta um determinado formato ou padrão na matriz usando o algoritmo de erosão e um par de elementos estruturantes disjuntos. Esse código fonte foi desenvolvido como parte do estudo realizado na disciplina de Processamento de Imagens.
 
-**OBS: No repositório há imagens no formato "pbm" e "jpg" pois o Github não exibe fotos no formato "pbm". Portanto foram adicionados as fotos "jpg" para mostrar como as mesmas são vistas com o auxilio de um programa, como o "Gimp", que suporta o formato original "pbm".
-
 ## Requisitos
 
 Certifique-se de ter o Python 3 instalado em seu sistema.
@@ -48,4 +46,6 @@ python3 conta_objetos.py imagem.pbm
 
 O algoritmo irá processar a imagem e exibir a matriz da imagem, seguida da quantidade de objetos sem buracos e com buracos encontrados.
 
-**Observação:** Certifique-se de fornecer um arquivo de imagem válido no formato PBM para obter resultados precisos.
+**Observação 1:** Certifique-se de fornecer um arquivo de imagem válido no formato PBM para obter resultados precisos.
+
+**Observação 2:** No repositório há imagens no formato "pbm" e "jpg" pois o Github não exibe fotos no formato "pbm". Portanto foram adicionados as fotos "jpg" para mostrar como as mesmas são vistas com o auxilio de um programa, como o "Gimp", que suporta o formato original "pbm".
